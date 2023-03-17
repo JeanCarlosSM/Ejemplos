@@ -1,21 +1,77 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+:root{
+    --rojo : #ae1325;
+    --naranja : #b83e27;
+    --azul : #412688 ;
+ }
+h1 {
+    margin-top: 0;
+}
+
+ /* clases css */
 #coloruno{
-    background-color: #ae1325;
+    background-color: var(--rojo);
 }
 #colordos{
-    background-color: #b83e27;
+    background-color: var(--naranja);
 }
 #colortres{
-    background-color: #412688;
+    background-color: var(--azul);
 }
 #encabezado{
     font-size: 80px;
     color: white;
-    background-color: #ae1325;
+    background-color: var(--rojo);
     text-align: center;
 }
 #cuerpo {
-    background-color: #b83e27;
+    background-color: var(--naranja);
 }
 #cuadro{
-    background-color: #412688;
+    background-color: var(--azul);
 }
+.flexcontenedor {
+    display: flex;
+}
+/* .flexcontenedor > div {
+    width: 50%;
+} */
+.divizquierda {
+    width: 40%;
+    
+}
+.divderecho {
+    width: 50%;
+    background-color: var(--azul);
+    text-align: center;
+    height: 400px;
+}
+.colorletra {
+    color: white;
+}
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .button:hover {
+    background-color: #1238e2;
+  }
+  .colorbotonizquierdo {
+    background: rgb(246,34,50);
+    background: linear-gradient(90deg, rgba(246,34,50,1) 0%, rgba(253,132,31,1) 100%);
+  }
+  .colorbotonderecho {
+    background-color: #5665f0;
+  }
