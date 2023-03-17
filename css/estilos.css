@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    
+    color: darkorange;
+}
+span{
+    color: springgreen;
+}
+p,h1,h2{
+    text-align: center;
+}
+h1 span {
+    color: white;
+}
+.destacado {
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#inico {
+    text-align: center;
+    color: azure;
+}

@@ -1,0 +1,21 @@
+#coloruno{
+    background-color: #ae1325;
+}
+#colordos{
+    background-color: #b83e27;
+}
+#colortres{
+    background-color: #412688;
+}
+#encabezado{
+    font-size: 80px;
+    color: white;
+    background-color: #ae1325;
+    text-align: center;
+}
+#cuerpo {
+    background-color: #b83e27;
+}
+#cuadro{
+    background-color: #412688;
+}
