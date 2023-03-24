@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+.flexcontenedor {
+    display: flex;
+    
+}
+.divizquierdo {
+    width: 60%;
+}
+.divderecho {
+     width: 40%; 
+}
+.divisquierdohijo {
+    width: 30%;
+    
+}
+.divderechohijo {
+    width: 70%;
+    
+}
+.flexcontenedor2 {
+    justify-content: space-between;
+    display: flex;
+    
+}
+.flexcontenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexcontenedor4 {
+    text-align: center;
+}
+.flexcontenedorpadre {
+    justify-content: space-between;
+    display: flex;
+}
