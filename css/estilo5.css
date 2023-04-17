@@ -1,0 +1,28 @@
+.flexcontenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body {
+    background-color: aquamarine;
+}
+.flexcontenedor > div {
+   display: flex;
+   height: 200px;
+   border: 1px solid green;
+   width: 30%;
+   margin-bottom: 10px;
+   align-items: center;
+   justify-content: center;
+}.gridcontenedor > div {
+   
+    border: 1px solid green;
+    height: 200px;
+}
+.gridcontenedor {
+    display: grid;
+    grid-template-columns: 30% 40% auto;
+    gap: 10px;
+    
+}
