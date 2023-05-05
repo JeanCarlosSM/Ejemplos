@@ -2,12 +2,14 @@ body {
 
     background-color: antiquewhite;
 }
+
 .flexContenedor {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .flexContenedor > div {
     display: flex;
     height: 200px;
@@ -18,14 +20,17 @@ body {
     align-items: center;
 
 }
+
 .gridContenedor {
 
     display: grid;
     grid-template-columns: 200px  40%  auto;
     gap: 10px;
 }
+
 .gridContenedor > div {
 
     height: 200px;
     border: 1px solid green;
+
 }
