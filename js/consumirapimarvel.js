@@ -9,12 +9,24 @@ function consumirAPI() {
         .then(response => response.json())
         .then(json => {
             
+            var tablaMarvel = document.getElementById("tablaMarvel");
+
             for (item of json.data.results) {
-                console.log(item.id);
-                console.log(item.name);
-                console.log(item.description);
+
+                var fila = tablaMarvel.insertRow();
+
+                var columnaIdentificador = fila.insertCell(0);
+                var columnaNombre = fila.insertCell(1);
+                var columnaDescripcion = fila.insertCell(2);
+                var columnaImagen = fila.insertCell(3);
+
+                columnaIdentificador.innerHTML = item.id;
+                columnaNombre.innerHTML = item.name;
+                columnaDescripcion.innerHTML = item.description;
 
                 var urlImagen = item.thumbnail.path + "." + item.thumbnail.extension;
+                var imagen = crearImagen(urlImagen);
+                columnaImagen.appendChild(imagen);
                 console.log(urlImagen);
             }
         });
