@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servimodulos</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Servimodulos</h1>
+    
+    <h2 style="text-align: center;">lista de compra</h2>
+    <table>
+        <tr>
+            <td>Numero</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Fecha</td>
+            <td><input type="text" id="fechacompra"></td>
+        </tr>
+        <tr>
+            <td>Cedula</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Nombre</td>
+            <td><input type="text"> <br></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table style="text-align: center;;">
+        <tr>
+            <td>Codigo producto</td>
+            <td>Nombre producto</td>
+            <td>Cantidad</td>
+            <td>costo</td>
+            <td><button>Agregar a la tabla</button></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <button>Eliminar</button>
+    <button>Cancelar</button>
+    <button>Registrar cambios</button>
+    <script>
+        const d = new Date();
+        document.getElementById("fechacompra").value = d.toLocaleDateString();
+
+    </script>
+</body>
+</html>
